@@ -1,0 +1,11 @@
+{
+  "eval_id": 1,
+  "eval_name": "linkedin-ki-rhetoric",
+  "prompt": "Mein LinkedIn-Post. Klingt der zu sehr nach AI? Bitte review und fix.\n\n[Text: test-text-2-linkedin.md — sechs kurze Absätze, drei Dreierschläge, Negation-Affirmation-Kaskade, Superficial-Analysis-Schluss]",
+  "assertions": [
+    {"text": "Both symmetric triples (C1) are flagged", "type": "qualitative"},
+    {"text": "Erstens/Zweitens/Drittens-Aufzählung is flagged as G1", "type": "qualitative"},
+    {"text": "Rewrite keeps Du-Form and LinkedIn-Closing-Question", "type": "qualitative"},
+    {"text": "Rewrite resolves the three triples without making the text too short", "type": "qualitative"}
+  ]
+}

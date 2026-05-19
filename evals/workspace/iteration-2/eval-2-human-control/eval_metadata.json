@@ -1,0 +1,1 @@
+{"eval_id":2,"eval_name":"human-text-no-false-positives","prompt":"Klingt das hier nach KI? Bitte ehrlich.","assertions":[{"text":"Verdict is ✅","type":"qualitative"},{"text":"No critical findings produced","type":"qualitative"},{"text":"Was-funktioniert section gives concrete positive signals","type":"qualitative"}]}

@@ -1,0 +1,11 @@
+{
+  "eval_id": 2,
+  "eval_name": "human-text-no-false-positives",
+  "prompt": "Klingt das hier nach KI? Bitte ehrlich.\n\n[Text: test-text-3-human.md — persönliche Anekdote über ein E-Mail-Tool, viele konkrete Zahlen und Punch-Sätze]",
+  "assertions": [
+    {"text": "Verdict is ✅ Bestanden", "type": "qualitative"},
+    {"text": "No critical findings are produced", "type": "qualitative"},
+    {"text": "B1/B2-Warnings are flagged but explained as functional", "type": "qualitative"},
+    {"text": "Was-funktioniert-Section gives concrete positive signals", "type": "qualitative"}
+  ]
+}
