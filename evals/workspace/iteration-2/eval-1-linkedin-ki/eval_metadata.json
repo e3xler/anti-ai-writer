@@ -1,1 +1,0 @@
-{"eval_id":1,"eval_name":"linkedin-ki-rhetoric","prompt":"Mein LinkedIn-Post. Klingt der zu sehr nach AI? Bitte review und fix.","assertions":[{"text":"Both symmetric triples (C1) are flagged","type":"qualitative"},{"text":"Erstens/Zweitens/Drittens flagged as G1","type":"qualitative"},{"text":"Rewrite keeps Du-Form and Closing-Question","type":"qualitative"}]}

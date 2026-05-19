@@ -56,15 +56,10 @@ anti-ki-review/
 ├── scripts/
 │   ├── watermark_cleaner.py          Step 0: hidden Unicode detection / cleanup
 │   └── kadenz_linter.py              Step 1: mechanical pattern linter
-├── references/
-│   ├── ai-patterns.md                G1–G6 pattern catalog (Negation-Affirmation, Puffery, etc.)
-│   ├── rewrite-playbook.md           Before/after rewrite strategies
-│   └── unicode-ruleset.md            Documentation of which code points the cleaner handles
-└── evals/
-    ├── test-text-*.md                Test inputs (KI-marketing, LinkedIn, human control, watermarked)
-    ├── result-test-*.md              Test outputs from skill runs
-    ├── eval-viewer.html              Browser-readable comparison of all test runs
-    └── workspace/                    Eval-runner workspace (iteration-1, iteration-2)
+└── references/
+    ├── ai-patterns.md                G1–G6 pattern catalog (Negation-Affirmation, Puffery, etc.)
+    ├── rewrite-playbook.md           Before/after rewrite strategies
+    └── unicode-ruleset.md            Documentation of which code points the cleaner handles
 ```
 
 ## Language
